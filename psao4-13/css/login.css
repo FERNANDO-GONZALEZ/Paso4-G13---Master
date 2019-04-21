@@ -1,0 +1,36 @@
+﻿#nav{
+    padding: 70px;
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+#titulo{
+    text-align: center;
+}
+
+#login{
+    
+    padding-top: 50px;
+}
+
+#llave{
+    float: right;
+}
+
+#Button1{
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 15px;
+    margin-right: 100px;
+
+}
+
+#Button2{
+    padding: 20px;
+    padding-right: 55px;
+    padding-left: 55px;
+}

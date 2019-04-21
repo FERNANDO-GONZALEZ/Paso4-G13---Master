@@ -1,0 +1,53 @@
+﻿body {    height: 432px;
+}
+
+#unad {
+    
+    padding-left: 280px;
+}
+
+#titulo {
+    
+    width: 90%;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    color: blue;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+#Button1 {
+    margin-left: 182px;
+}
+
+#Button2  {
+    margin-left: 60px;
+}
+#Button3 {
+    margin-left: 60px;
+}
+
+#Button4 {
+    margin-left: 182px;
+}
+#Button5 {
+    margin-left: 60px;
+}
+#Button6 {
+    margin-left: 60px;
+}
+.botones{
+    padding-top: 30px;
+    margin-left: 120px;
+}
+.btn {
+    background-color: #C0C0C0; /* Blue background */
+   
+    color: black; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}

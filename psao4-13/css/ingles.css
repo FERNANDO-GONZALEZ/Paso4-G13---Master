@@ -1,0 +1,50 @@
+﻿body {
+}
+.flex-container {
+    display: flex;
+}
+#unad {
+    
+    
+}
+
+#titulo {
+    
+    
+    text-align: center;
+   
+    
+    color: blue;
+}
+#uno{
+    margin-left: 286px;
+}
+#ingles {
+    text-align: center;
+    margin-left: 136px;
+}
+#dos {
+    margin-left: 136px;
+}
+.botones{
+
+    margin-top: 40px;
+}
+#Button1 {
+    margin-left: 400px;
+}
+
+#Button2  {
+    margin-left: 60px;
+}
+
+
+}
+.btn {
+    background-color: #C0C0C0; /* Blue background */
+   
+    color: black; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
