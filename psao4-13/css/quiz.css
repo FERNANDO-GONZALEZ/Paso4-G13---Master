@@ -1,0 +1,30 @@
+﻿body {
+    background-color: lightblue;
+}
+
+#gray {
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: white;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    border-radius: 25px;
+}
+#titulo{
+   
+    text-align: center;
+}
+
+#boton{
+    margin-left: 270px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.radio {
+    
+    float: left;
+}
