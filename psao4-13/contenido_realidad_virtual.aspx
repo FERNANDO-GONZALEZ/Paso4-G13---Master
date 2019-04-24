@@ -1,0 +1,16 @@
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="contenido_realidad_virtual.aspx.vb" Inherits="_Default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>contenido_realidad_virtual</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+        </div>
+    </form>
+</body>
+</html>
