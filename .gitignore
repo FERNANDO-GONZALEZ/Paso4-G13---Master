@@ -1,0 +1,9 @@
+storage.ide
+storage.ide-shm
+storage.ide-wal
+.suo
+applicationhost.config
+db.lock
+.vs/config/applicationhost.config
+*.config
+*.config
