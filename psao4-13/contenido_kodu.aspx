@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="contenido_realidad_virtual.aspx.vb" Inherits="areasdeestudio" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="contenido_kodu.aspx.vb" Inherits="areasdeestudio" %>
 
 <!DOCTYPE html>
 
@@ -28,17 +28,17 @@
              </div>
             
             <div id="titulo" class="col-lg-4">
-                        <h2>CURSO REALIDAD VIRTUAL</h2>
+                        <h2>CURSO KODU</h2>
     
            
         </div>
 
         <div id="titulo" class="col-lg-4">
-                <img src="img/realidad_virtual_slider.jpg" alt="" width="1100" height="300" />
+                <img src="img/kodu_slider.jpg" alt="" width="1100" height="300" />
             </div>
 
           <div id="titulo" class="col-lg-4">
-                        <h2>QUE ES LA REALIDAD VIRTUAL</h2>
+                        <h2>QUE ES KODU</h2>
             </div>
 
    
@@ -48,15 +48,22 @@
          <div id="divVideo" runat="server">
         </div>
 
+
+             <div id="div2Video" runat="server">
+        </div>
+
+
+
+
              <div id="titulo" class="col-lg-4">
-                        <h2>DESCARGUE EL ARCHIVO PDF</h2>
+                        <h2>COMO CREAR TU PRIMER PROYECTO</h2>
             </div>
 
  <div id="titulo" class="col-lg-4">
                 <img src="img/imagen_pdf.jpg" alt="" width="200" height="200" />
             </div>
-           
-            <h1> <a href="cursos_PDF/Realidad%20Aumentada%20Sus%20Desafios%20y%20Aplicaciones.pdf">cursos_PDF/Realidad Aumentada Sus Desafios y Aplicaciones.pdf</a> </h1>  
+            <h1> <a href="cursos_PDF/como%20crear%20tu%20primer%20proyecto%20kodu.pdf">cursos_PDF/como crear tu primer proyecto kodu.pdf</a></h1> 
+            
     </div>
 
     
