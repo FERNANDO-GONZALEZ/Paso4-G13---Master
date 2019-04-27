@@ -8,7 +8,7 @@ Partial Class areasdeestudio
         cargarVideo()
     End Sub
     Protected Sub cargarVideo()
-        Dim youtubeUrl As String = "https://www.youtube.com/watch?v=IzAuGa7YKeU"
+        Dim youtubeUrl As String = "https://www.youtube.com/watch?v=277tiZpwv88"
         Dim vCode As String = youtubeUrl.Substring(youtubeUrl.LastIndexOf("v=") + 2)
         If (vCode.Contains("&")) Then
             vCode = vCode.Substring(0, vCode.LastIndexOf("&"))
