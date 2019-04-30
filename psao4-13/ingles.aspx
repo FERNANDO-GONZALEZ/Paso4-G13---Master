@@ -22,7 +22,7 @@
             </div>
         
             <div id="titulo" class="col-lg-2">
-                <h1>PROCESO: ENSEÑANZA Y APRENDIZAJE PARA ESTUDIANTES!!!</h1>
+                <h1>PROCESO: ENSEÑANZA Y APRENDIZAJE PARA ESTUDIANTES nuevo</h1>
         
             </div>
         </div>
