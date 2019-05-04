@@ -20,7 +20,7 @@
                 <img src="img/unad1.png" alt="" width="600" height="163" />
 
             </div>
-            <h1>Quiz Inglés</h1>
+            <h1>Quiz Inglés Unad</h1>
         </div>
         <div class="flex-container">
         <!--Respuesta correcta radioButton1  -->
