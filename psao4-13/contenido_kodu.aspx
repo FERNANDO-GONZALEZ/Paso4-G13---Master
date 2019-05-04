@@ -62,7 +62,17 @@
  <div id="titulo" class="col-lg-4">
                 <img src="img/imagen_pdf.jpg" alt="" width="200" height="200" />
             </div>
-            <h1> <a href="cursos_PDF/como%20crear%20tu%20primer%20proyecto%20kodu.pdf">cursos_PDF/como crear tu primer proyecto kodu.pdf</a></h1> 
+            <h1> <a href="cursos_PDF/como%20crear%20tu%20primer%20proyecto%20kodu.pdf">cursos_PDF/como crear tu primer proyecto kodu.pdf</a></h1>
+             <p> &nbsp;</p>
+             <p> 
+       
+        <asp:Button ID="Button2"  CssClass="btn" runat="server" Text="REALIZAR EVALUACION" Height="80px" Width="250px" />
+
+        
+        <asp:Button ID="Button3"  CssClass="btn" runat="server" Text="REGRESAR A LOS CURSOS " Height="80px" Width="250px" />
+
+        
+             </p> 
             
     </div>
 
