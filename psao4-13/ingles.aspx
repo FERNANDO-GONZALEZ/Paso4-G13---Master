@@ -39,6 +39,13 @@
             </div>
         </div>
 
+    <div  class="flex-container botones">
+       
+        <asp:Button ID="Button1" CssClass="btn" runat="server" Text="ENTORNO DE APRENDIZAJE" Height="80px" Width="280px" ImangeUrl="img/INGLES2.png" />
+       
+        <asp:Button ID="Button2"  CssClass="btn" runat="server" Text="EVALUACIÓN" Height="80px" Width="280px" />
+
+        </div>
     <h3 align="center">SELECCIONE EL EXAMEN A REALIZAR</h3>
         
         <div  class="flex-container" >

@@ -56,7 +56,16 @@
                 <img src="img/imagen_pdf.jpg" alt="" width="200" height="200" />
             </div>
            
-            <h1> <a href="cursos_PDF/Realidad%20Aumentada%20Sus%20Desafios%20y%20Aplicaciones.pdf">cursos_PDF/Realidad Aumentada Sus Desafios y Aplicaciones.pdf</a> </h1>  
+            <h1> <a href="cursos_PDF/Realidad%20Aumentada%20Sus%20Desafios%20y%20Aplicaciones.pdf">cursos_PDF/Realidad Aumentada Sus Desafios y Aplicaciones.pdf</a> </h1>
+             <p>  
+       
+        <asp:Button ID="Button2"  CssClass="btn" runat="server" Text="REALIZAR EVALUACION" Height="80px" Width="250px" />
+
+        
+        <asp:Button ID="Button3"  CssClass="btn" runat="server" Text="REGRESAR A LOS CURSOS " Height="80px" Width="250px" />
+
+        
+             </p>  
     </div>
 
     
