@@ -6,7 +6,14 @@ Partial Class quizIngles
     Public valor As String
 
 
+
     Protected Sub Bustton1_Click(sender As Object, e As EventArgs) Handles Bustton1.Click
+
+        If RadioButton1.Checked = False And RadioButton2.Checked = False And RadioButton3.Checked = False And RadioButton4.Checked = False And RadioButton5.Checked = False And RadioButton6.Checked = False And RadioButton7.Checked = False And RadioButton8.Checked = False And RadioButton9.Checked = False And RadioButton10.Checked = False Then
+            valor = "Debe responder a todas las preguntas"
+            'MsgBox("debe responder todas las respuestas")
+
+        End If
         'respuestas correctas
         If RadioButton1.Checked Then
             If RadioButton4.Checked Then
