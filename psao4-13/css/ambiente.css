@@ -25,20 +25,18 @@
 }
 
 #Button1 {
-    margin-left: 200px;
+    margin-left: 350px;
     margin-right: 20px;
 }
-#Button3{
-    margin-right: 20px;
-}
+
 
 
 #Button2 {
     margin-left: 60px;
 }
 
-#Button5{
-    margin-left: 100px;
+.botones{
+    margin-top: 30px;
 }
 
 

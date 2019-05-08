@@ -9,7 +9,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <link rel="stylesheet" type="text/css" href="css/ingles.css" />
+    <link rel="stylesheet" type="text/css" href="css/scratch.css" />
 
     
 </head>
