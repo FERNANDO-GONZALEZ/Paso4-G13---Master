@@ -1,11 +1,11 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="realidad_virtual.aspx.vb" Inherits="areasdeestudio" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="medio_ambiente.aspx.vb" Inherits="areasdeestudio" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Realidad virtual</title>
+    <title>Medio_Ambiente</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -28,19 +28,19 @@
         </div>
         <div class="flex-container">
             <div id="uno" class="col-lg-4">
-                <img src="img/REALIDA VIRTUAL.jpg" alt="" width="220" height="100" />
+                <img src="img/MEDIO AMBIENTE.jpg" alt="" width="120" height="100" />
             </div>
             <div id="ingles"class="col-lg-4">
-                <h1> Realidad virtual</h1>
+                <h1> Medio Ambiente</h1>
 
             </div>
             <div id="dos" class="col-lg-4">
-                <img src="img/REALIDA VIRTUAL.jpg" alt="" width="220" height="100" />
+                <img src="img/MEDIO AMBIENTE.jpg" alt="" width="120" height="100" />
             </div>
         </div>
     <div  class="flex-container botones">
        
-        <asp:Button ID="Button1" CssClass="btn" runat="server" Text="ENTORNO DE APRENDIZAJE" Height="80px" Width="280px" ImangeUrl="img/INGLES2.png" />
+        <asp:Button ID="Button1" CssClass="btn" runat="server" Text="ENTORNO DE APRENDIZAJE " Height="80px" Width="280px" ImangeUrl="img/INGLES2.png" />
        
         <asp:Button ID="Button2"  CssClass="btn" runat="server" Text="EVALUACIÓN" Height="80px" Width="280px" />
 

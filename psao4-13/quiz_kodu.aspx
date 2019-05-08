@@ -1,11 +1,11 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="quizIngles.aspx.vb" Inherits="quizIngles" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="quiz_kodu.aspx.vb" Inherits="quizIngles" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Quiz Ingles</title>
+    <title>QUIZ KODU</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -20,44 +20,44 @@
                 <img src="img/unad1.png" alt="" width="600" height="163" />
 
             </div>
-            <h1>Quiz Inglés Unad</h1>
+            <h1>QUIZ KODU</h1>
         </div>
         <div class="flex-container">
         <!--Respuesta correcta radioButton1  -->
-            <h2>1. Hi, my name is John</h2>
-            <asp:RadioButton  ID="RadioButton1" CssClass="radio" runat="server" text="Hello, I'm Carlos, nice to meet you!" GroupName="uno" /> 
-            <asp:RadioButton ID="RadioButton2" CssClass="radio" runat="server" text="hi, your name is John!" GroupName="uno" />
+            <h2>1. Que es Kodu?</h2>
+            <asp:RadioButton  ID="RadioButton1" CssClass="radio" runat="server" text="Una aplicación que nos permite crear nuestro propio videojuego" GroupName="uno" /> 
+            <asp:RadioButton ID="RadioButton2" CssClass="radio" runat="server" text="Una plataforma Virtual" GroupName="uno" />
         
          </div>
 
          <div class="flex-container">
-        <!--Respuesta correcta radioButton4  -->
-            <h2>2. What's his name?</h2>
-            <asp:RadioButton ID="RadioButton3" CssClass="radio" runat="server" text="I am Tony!" GroupName="dos" /> 
-            <asp:RadioButton ID="RadioButton4" CssClass="radio" runat="server" text="his name is Tony" GroupName="dos" />
+        <!--Respuesta correcta radioButton3  -->
+            <h2>2. Que demuestra KOdu?</h2>
+            <asp:RadioButton ID="RadioButton3" CssClass="radio" runat="server" text="Kodu Demuestra que la programacion es creativa" GroupName="dos" /> 
+            <asp:RadioButton ID="RadioButton4" CssClass="radio" runat="server" text="Kodu Demuestra fracciones Matematicas " GroupName="dos" />
         </div>
 
          <div class="flex-container">
         <!--Respuesta correcta radioButton6  -->
-            <h2>3. Are you working?</h2>
-            <asp:RadioButton ID="RadioButton5" CssClass="radio" runat="server" text="No, I don't working" GroupName="tres" /> 
-            <asp:RadioButton ID="RadioButton6" CssClass="radio" runat="server" text="Yes, we are working" GroupName="tres" />
+            <h2>3. Para que Sirve Kodu?</h2>
+            <asp:RadioButton ID="RadioButton5" CssClass="radio" runat="server" text="Plataforma para Diseñar Animaciones" GroupName="tres" /> 
+            <asp:RadioButton ID="RadioButton6" CssClass="radio" runat="server" text="Programacion específicamente para crear juegos de vídeo y funciona en cualquier PC que utilice Windows" GroupName="tres" />
         
          </div>
 
          <div class="flex-container">
         <!--Respuesta correcta radioButton7  -->
-            <h2>4. Where are you living?</h2>
-            <asp:RadioButton ID="RadioButton7" CssClass="radio" runat="server" text="I'm living in Cali!" GroupName="cuartro" /> 
-            <asp:RadioButton ID="RadioButton8" CssClass="radio" runat="server" text="I live in Cali" GroupName="cuatro" />
+            <h2>4.En que Consolas Funciona kodu </h2>
+            <asp:RadioButton ID="RadioButton7" CssClass="radio" runat="server" text="consola de juegos XBOX y PC" GroupName="cuartro" /> 
+            <asp:RadioButton ID="RadioButton8" CssClass="radio" runat="server" text="consola de juegos PLAYSTATIONS y PC" GroupName="cuatro" />
         
          </div>
 
          <div class="flex-container">
         <!--Respuesta correcta radioButton9  -->
-            <h2>5. Is he playing football?</h2>
-            <asp:RadioButton ID="RadioButton9" CssClass="radio" runat="server" text="No, he's not. He is playing tennis" GroupName="cinco" /> 
-            <asp:RadioButton ID="RadioButton10" CssClass="radio" runat="server" text="Yes, they are playing football" GroupName="cinco" />
+            <h2>5. Kodu crea Video Juegos 3D</h2>
+            <asp:RadioButton ID="RadioButton9" CssClass="radio" runat="server" text="Si" GroupName="cinco" /> 
+            <asp:RadioButton ID="RadioButton10" CssClass="radio" runat="server" text="No" GroupName="cinco" />
         </div >
         <div id="boton">
           <p>  

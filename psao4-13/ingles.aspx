@@ -22,7 +22,7 @@
             </div>
         
             <div id="titulo" class="col-lg-2">
-                <h1>PROCESO: ENSEÑANZA Y APRENDIZAJE PARA ESTUDIANTES</h1>
+                <h3>PROCESO: ENSEÑANZA Y APRENDIZAJE PARA ESTUDIANTES </h3>
         
             </div>
         </div>
@@ -31,23 +31,29 @@
                 <img src="img/INGLES.PNG" alt="" width="220" height="100" />
             </div>
             <div id="ingles"class="col-lg-4">
-                <h1> INGLÉS</h1>
+                <h1 align="center"> INGLÉS</h1>
 
             </div>
             <div id="dos" class="col-lg-4">
                 <img src="img/INGLES.PNG" alt="" width="220" height="100" />
             </div>
         </div>
+
     <div  class="flex-container botones">
        
-        <asp:Button ID="Button1" CssClass="btn" runat="server" Text="TEMA 1" Height="80px" Width="280px" ImangeUrl="img/INGLES2.png" />
+        <asp:Button ID="Button1" CssClass="btn" runat="server" Text="ENTORNO DE APRENDIZAJE" Height="80px" Width="280px" ImangeUrl="img/INGLES2.png" />
        
-        <asp:Button ID="Button2"  CssClass="btn" runat="server" Text="EVALUACIÓN 1" Height="80px" Width="280px" />
+        <asp:Button ID="Button2"  CssClass="btn" runat="server" Text="EVALUACIÓN" Height="80px" Width="280px" />
 
+        </div>
+    <h3 align="center">SELECCIONE EL EXAMEN A REALIZAR</h3>
         
-    </div>
-
-    
+        <div  class="flex-container" >
+    <asp:Button ID="Button5" CssClass="btn" runat="server" Text="CONTENIDO AUDIO VISUAL" Height="60px" Width="240px" ImangeUrl="img/INGLES2.png" />
+    <asp:Button ID="Button1" CssClass="btn" runat="server" Text="EXAMEN INGLES 0" Height="60px" Width="240px" ImangeUrl="img/INGLES2.png" />
+    <asp:Button ID="Button3" CssClass="btn" runat="server" Text="EXAMEN INGLES I" Height="60px" Width="240px" ImangeUrl="img/INGLES2.png" />
+    <asp:Button ID="Button4" CssClass="btn" runat="server" Text="EXAMEN INGLES II" Height="60px" Width="240px" ImangeUrl="img/INGLES2.png" />    
+        </div>
 
     
     </form>

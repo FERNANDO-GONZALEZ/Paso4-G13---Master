@@ -1,11 +1,11 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="contenido_realidad_aumentada.aspx.vb" Inherits="areasdeestudio" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="contenido_ingles.aspx.vb" Inherits="areasdeestudio" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Realidad virtual</title>
+    <title>Ingles</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -23,22 +23,18 @@
         
            
         </div>
-        <div class="flex-container">
-
-             </div>
+   
             
             <div id="titulo" class="col-lg-4">
-                        <h2>CURSO REALIDAD AUMENTADA</h2>
-    
-           
-        </div>
+                        <h2>CURSO INGLES 0 - I - II</h2>
+            </div>
 
         <div id="titulo" class="col-lg-4">
-                <img src="img/realidad_aumentada_slider.jpg" alt="" width="1100" height="300" />
+                <img src="img/INGLES_2.PNG" alt="" width="1100" height="300" />
             </div>
 
           <div id="titulo" class="col-lg-4">
-                        <h2>Que es Realidad Aumentada</h2>
+                        <h2>Aprende Ingles Escuchando</h2>
             </div>
 
    
@@ -56,16 +52,7 @@
                 <img src="img/imagen_pdf.jpg" alt="" width="200" height="200" />
             </div>
            
-            <h1> <a href="cursos_PDF/Realidad%20Aumentada%20Sus%20Desafios%20y%20Aplicaciones.pdf">cursos_PDF/Realidad Aumentada Sus Desafios y Aplicaciones.pdf</a> </h1>
-             <p>  
-       
-        <asp:Button ID="Button2"  CssClass="btn" runat="server" Text="REALIZAR EVALUACION" Height="80px" Width="250px" />
-
-        
-        <asp:Button ID="Button3"  CssClass="btn" runat="server" Text="REGRESAR A LOS CURSOS " Height="80px" Width="250px" />
-
-        
-             </p>  
+            <h1> <a href="cursos_PDF/el%20mas%20completo%20ingles%2015261%20completo.pdf">El curso más completo de inglés.pdf</a> </h1>  
     </div>
 
     

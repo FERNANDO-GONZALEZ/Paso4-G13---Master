@@ -35,13 +35,13 @@
        
         <asp:Button ID="Button2"  CssClass="btn" runat="server" Text="MEDIO AMBIENTE" Height="50px" Width="280px" />
 
-        <asp:Button ID="Button3" CssClass="btn" runat="server" Text="SCRACTH" Height="50px" Width="280px" />
+        <asp:Button ID="Button3" CssClass="btn" runat="server" Text="SCRATCH" Height="50px" Width="280px" />
     
     </div>
 
      <div class="flex-container botones">
        
-         <asp:Button ID="Button4" CssClass="btn" runat="server" Text="KODU" Height="50px" Width="280px" ImangeUrl="img/INGLES2.png" />
+         <asp:Button ID="Button4" CssClass="btn" runat="server" Text="KODU" Height="50px" Width="280px"/>
        
         <asp:Button ID="Button5"  CssClass="btn" runat="server" Text="REALIDAD AUMENTADA" Height="50px" Width="280px" />
 

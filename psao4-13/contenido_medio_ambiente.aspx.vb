@@ -2,13 +2,12 @@
 Partial Class areasdeestudio
     Inherits System.Web.UI.Page
 
-
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
         'YouTube Video URL
         cargarVideo()
     End Sub
     Protected Sub cargarVideo()
-        Dim youtubeUrl As String = "https://www.youtube.com/watch?v=qoAZAVpN5g0"
+        Dim youtubeUrl As String = "https://www.youtube.com/watch?v=8yo99_T4QZI"
         Dim vCode As String = youtubeUrl.Substring(youtubeUrl.LastIndexOf("v=") + 2)
         If (vCode.Contains("&")) Then
             vCode = vCode.Substring(0, vCode.LastIndexOf("&"))
@@ -22,12 +21,5 @@ Partial Class areasdeestudio
         Dim sHeight As String = "300px"
         'insert code to the Div
         divVideo.InnerHtml = String.Format(sHtml, sWidth, sHeight, vCode)
-    End Sub
-
-    Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Response.Redirect("areasdeestudio.aspx")
-    End Sub
-    Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Response.Redirect("quiz_kodu.aspx")
     End Sub
 End Class
