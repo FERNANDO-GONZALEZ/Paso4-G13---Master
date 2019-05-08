@@ -49,7 +49,7 @@
             <div class="flex-container">
                 <label class="col-lg-3">Contraseña      </label>
                 &nbsp;</div>
-            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
             <br />
             <div class="flex-container">
                 <asp:Button ID="Button1" runat="server" Text="Ingreso" />
