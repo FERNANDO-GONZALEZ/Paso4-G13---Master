@@ -9,7 +9,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <link rel="stylesheet" type="text/css" href="css/quiz.css" />
+    <link rel="stylesheet" type="text/css" href="css/quizIngles.css" />
 
 </head>
 <body>
@@ -22,6 +22,18 @@
             </div>
             <h1>Quiz Inglés Unad</h1>
         </div>
+
+       
+                <div id="mensaje">
+        
+                    <%
+                        Response.Write(valor)
+
+                    %>
+            
+                 </div>
+       
+
         <div class="flex-container">
         <!--Respuesta correcta radioButton1  -->
             <h2>1. Hi, my name is John</h2>
@@ -64,7 +76,7 @@
             <asp:Button ID="Bustton1" runat="server" Text="Enviar"  Width="160" Height="50"  />  
           </p>  
         </div>
-
+        
         
     </form>
         </div>

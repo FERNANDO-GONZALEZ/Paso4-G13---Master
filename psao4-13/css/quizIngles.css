@@ -28,3 +28,15 @@
     
     float: left;
 }
+
+#mensaje {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: larger;
+    margin-left: auto;
+    padding: 10px;
+    
+    
+}
