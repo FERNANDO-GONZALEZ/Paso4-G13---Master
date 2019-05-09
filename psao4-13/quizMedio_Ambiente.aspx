@@ -9,7 +9,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <link rel="stylesheet" type="text/css" href="css/quiz.css" />
+    <link rel="stylesheet" type="text/css" href="css/quizIngles.css" />
 
 </head>
 <body>
@@ -23,18 +23,19 @@
             <h1>Quiz Medio Ambiente</h1>
         </div>
 
-        ID ESTUDIANTE:&nbsp;
-        <asp:TextBox ID="TextBox1" runat="server" BackColor="#FFFFCC"></asp:TextBox>
-         NOMBRE:&nbsp;
-        <asp:TextBox ID="TextBox2" runat="server" BackColor="#FFFFCC"></asp:TextBox>
-                <div id="mensaje">
+         <div id="estu">
+                ID ESTUDIANTE:&nbsp;
+                <asp:TextBox ID="TextBox1" runat="server" BackColor="#FFFFCC"></asp:TextBox>
+         </div>
         
+             <div id="mensaje">  
                     <%
                         Response.Write(valor)
-                        Response.Write(nota)
+                        If nota <> 0 Then
+                            Response.Write(nota)
+                        End If
                     %>
-            
-                 </div>
+              </div>
 
 
         <div class="flex-container">

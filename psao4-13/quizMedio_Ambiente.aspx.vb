@@ -14,8 +14,6 @@ Partial Class quizIngles
     Public nombreArea As String
     'idestudiante
     Public idEstudiante As Integer
-    'nombre estudiante
-    Public nombreEstudiante As String
 
     Protected Sub Bustton1_Click(sender As Object, e As EventArgs) Handles Bustton1.Click
 
@@ -23,9 +21,15 @@ Partial Class quizIngles
 
         nombreArea = "Medio Ambiente"
 
-        idEstudiante = TextBox1.Text
+        If TextBox1.Text = "" Then
+            valor = "Debe ingresar el ID"
 
-        nombreEstudiante = TextBox2.Text
+            Return
+
+        Else
+            'guarda id ingresesada en el textbox a la variable
+            idEstudiante = TextBox1.Text
+        End If
 
 
 
@@ -37,20 +41,29 @@ Partial Class quizIngles
         End If
         ' mensaje en la pagina web
         valor = "Su resultado es: "
-        If RadioButton2.Checked Then
-            nota += 1
-        ElseIf RadioButton3.Checked Then
-            nota += 1
-        ElseIf RadioButton6.Checked Then
-            nota += 1
-        ElseIf RadioButton8.Checked Then
-            nota += 1
-        ElseIf RadioButton10.Checked Then
-            nota += 1
-        Else
-            nota = 0
-        End If
+        If RadioButton2.Checked = True Then nota = nota + 1
+        If RadioButton3.Checked = True Then nota = nota + 1
+        If RadioButton6.Checked = True Then nota = nota + 1
+        If RadioButton8.Checked = True Then nota = nota + 1
+        If RadioButton10.Checked = True Then nota = nota + 1
 
 
+        Dim Conexion As String
+
+        Conexion = "Data Source = (local)\SQLEXPRESS;Database=loginweb;Integrated Security=True"
+        Dim seleccion As String = "UPDATE registro SET nMedioambiente = '" & nota & "' WHERE idEstudiante='" & TextBox1.Text & "'"
+        Dim adaptadordedatos As SqlDataAdapter
+        Dim tabladedatos As New DataTable
+
+        Try
+            adaptadordedatos = New SqlDataAdapter(seleccion, Conexion)
+            adaptadordedatos.Fill(tabladedatos)
+            'registro.GridView1.DataSource = tabladedatos
+            'GridView1.DataBind()
+            'Contador.Text = "Total de registros: " & tabladedatos.Rows.Count
+        Catch exc As Exception
+            MsgBox("Error en la conexion: " & exc.Message)
+        End Try
     End Sub
+
 End Class
