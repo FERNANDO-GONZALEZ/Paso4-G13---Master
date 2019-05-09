@@ -7,7 +7,7 @@ Partial Class quizIngles
 
     Public valor As String
     'variable que guarda la nota
-    Public nota As String
+    Public nota As Integer = Nothing
     'idarea 1
     Public idArea As Integer
     'nombre ingles
@@ -25,7 +25,7 @@ Partial Class quizIngles
 
         idEstudiante = TextBox1.Text
 
-        nombreEstudiante = TextBox2.Text
+        'nombreEstudiante = TextBox2.Text
 
 
 
@@ -37,21 +37,29 @@ Partial Class quizIngles
         End If
         ' mensaje en la pagina web
         valor = "Su resultado es: "
-        If RadioButton1.Checked Then
-            nota += 1
-        ElseIf RadioButton4.Checked Then
-            nota += 1
-        ElseIf RadioButton6.Checked Then
-            nota += 1
-        ElseIf RadioButton7.Checked Then
-            nota += 1
-        ElseIf RadioButton9.Checked Then
-            nota += 1
-        Else
-            nota = 0
-        End If
+        If RadioButton1.Checked = True Then nota = nota + 1
+        If RadioButton4.Checked = True Then nota = nota + 1
+        If RadioButton6.Checked = True Then nota = nota + 1
+        If RadioButton7.Checked = True Then nota = nota + 1
+        If RadioButton9.Checked = True Then nota = nota + 1
 
+        TextBox2.Text = nota
+        Dim Conexion As String
 
+        Conexion = "Data Source = (local)\SQLEXPRESS;Database=loginweb;Integrated Security=True"
+        Dim seleccion As String = "UPDATE registro SET nIngles = '" & nota & "' WHERE idEstudiante='" & TextBox1.Text & "'"
+        Dim adaptadordedatos As SqlDataAdapter
+        Dim tabladedatos As New DataTable
+
+        Try
+            adaptadordedatos = New SqlDataAdapter(seleccion, Conexion)
+            adaptadordedatos.Fill(tabladedatos)
+            'registro.GridView1.DataSource = tabladedatos
+            'GridView1.DataBind()
+            'Contador.Text = "Total de registros: " & tabladedatos.Rows.Count
+        Catch exc As Exception
+            MsgBox("Error en la conexion: " & exc.Message)
+        End Try
     End Sub
 
 End Class
