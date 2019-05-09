@@ -28,7 +28,7 @@
         
                     <%
                         Response.Write(valor)
-
+                        Response.Write(nota)
                     %>
             
                  </div>
