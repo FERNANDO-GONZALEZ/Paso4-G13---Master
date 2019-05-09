@@ -1,4 +1,6 @@
-﻿
+﻿Imports System.Data
+Imports System.Data.SqlClient
+Imports System.ComponentModel
 Partial Class quizIngles
     Inherits System.Web.UI.Page
 
