@@ -22,6 +22,21 @@
             </div>
             <h1>Quiz Medio Ambiente</h1>
         </div>
+
+        ID ESTUDIANTE:&nbsp;
+        <asp:TextBox ID="TextBox1" runat="server" BackColor="#FFFFCC"></asp:TextBox>
+         NOMBRE:&nbsp;
+        <asp:TextBox ID="TextBox2" runat="server" BackColor="#FFFFCC"></asp:TextBox>
+                <div id="mensaje">
+        
+                    <%
+                        Response.Write(valor)
+                        Response.Write(nota)
+                    %>
+            
+                 </div>
+
+
         <div class="flex-container">
         <!--Respuesta correcta radioButton2  -->
             <h2>1. Se puede afirmar que la naturaleza es:</h2>
