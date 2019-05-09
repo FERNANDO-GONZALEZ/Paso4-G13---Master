@@ -50,7 +50,6 @@
         
         <div  class="flex-container" >
     <asp:Button ID="Button5" CssClass="btn" runat="server" Text="CONTENIDO AUDIO VISUAL" Height="60px" Width="240px" ImangeUrl="img/INGLES2.png" />
-    <asp:Button ID="Button1" CssClass="btn" runat="server" Text="EXAMEN INGLES 0" Height="60px" Width="240px" ImangeUrl="img/INGLES2.png" />
     <asp:Button ID="Button3" CssClass="btn" runat="server" Text="EXAMEN INGLES I" Height="60px" Width="240px" ImangeUrl="img/INGLES2.png" />
     <asp:Button ID="Button4" CssClass="btn" runat="server" Text="EXAMEN INGLES II" Height="60px" Width="240px" ImangeUrl="img/INGLES2.png" />    
         </div>

@@ -51,15 +51,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
                 <br />
         <br />
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:loginwebConnectionString %>" SelectCommand="INSERTAR_ESTUDIANTE" SelectCommandType="StoredProcedure">
-            <SelectParameters>
-                <asp:ControlParameter ControlID="TextBox1" Name="idEstudiante" PropertyName="Text" Type="Int32" />
-                <asp:ControlParameter ControlID="TextBox2" Name="nombre" PropertyName="Text" Type="String" />
-                <asp:ControlParameter ControlID="TextBox3" Name="apellido" PropertyName="Text" Type="String" />
-                <asp:ControlParameter ControlID="TextBox4" Name="direccion" PropertyName="Text" Type="String" />
-                <asp:ControlParameter ControlID="TextBox5" Name="telefono" PropertyName="Text" Type="Int32" />
-                <asp:ControlParameter ControlID="TextBox6" Name="celular" PropertyName="Text" Type="Int32" />
-            </SelectParameters>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:loginwebConnectionString %>" SelectCommand="SELECT [idArea], [nombreArea] FROM [areas]">
         </asp:SqlDataSource>
         <div style="margin-left: 120px">
             <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None">
