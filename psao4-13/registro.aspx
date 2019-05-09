@@ -5,19 +5,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Areas de estudio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="css/areas.css" />
+    <link rel="stylesheet" type="text/css" href="css/registro.css" />
 </head>
 <body>
     <form runat="server">
        <div>
-        <picture id="unad" >&nbsp;<img src="img/unad1.png" alt="" style="height: 95px; width: 460px; margin-left: 172px;" />
-        <div id="titulo">
-        <h2 style="margin-top: 0px">PROCESO: ENSEÑANZA Y APRENDIZAJE PARA ESTUDIANTES</h2>
-        <h3>REGISTRO DE ESTUDIANTES</h3>
+            <picture id="unad" >&nbsp;<img src="img/unad1.png" alt="" style="height: 95px; width: 460px; margin-left: 172px;" />
+            <div id="titulo">
+                <h2 style="margin-top: 0px">PROCESO: ENSEÑANZA Y APRENDIZAJE PARA ESTUDIANTES</h2>
+                <h3>REGISTRO DE ESTUDIANTES</h3>
+            </div>
     </div>
-        <br />
-        <br />
-     </picture></div>
+        
+     
 
     <div  class="flex-container botones">
        
@@ -30,6 +30,10 @@
         <br />
         <br />
        
+        
+    </div>
+
+    <div id="entradas">
         ID ESTUDIANTE:&nbsp;
         <asp:TextBox ID="TextBox1" runat="server" BackColor="#FFFFCC"></asp:TextBox>
         NOMBRES:       
@@ -46,14 +50,12 @@
         CELULAR:       
         <asp:TextBox ID="TextBox6" runat="server" BackColor="#FFCCFF"></asp:TextBox>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
                 <br />
         <br />
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:loginwebConnectionString %>" SelectCommand="SELECT [idArea], [nombreArea] FROM [areas]">
         </asp:SqlDataSource>
-        <div style="margin-left: 120px">
+        <div style="margin-left: 300px">
             <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None">
                 <AlternatingRowStyle BackColor="White" />
                 <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
@@ -67,9 +69,12 @@
                 <SortedDescendingHeaderStyle BackColor="#820000" />
             </asp:GridView>
         </div>
-        <p style="margin-left: 120px">
+        <p style="margin-left: 300px">
             <asp:Label ID="Contador" runat="server" Text="Contador"></asp:Label>
         </p>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </form>
     
 </body>

@@ -9,7 +9,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <link rel="stylesheet" type="text/css" href="css/quiz.css" />
+    <link rel="stylesheet" type="text/css" href="css/quizKodu.css" />
 
 </head>
 <body>
@@ -22,6 +22,14 @@
             </div>
             <h1>QUIZ KODU</h1>
         </div>
+         <div id="mensaje">
+        
+                    <%
+                        Response.Write(valor)
+
+                    %>
+            
+                 </div>
         <div class="flex-container">
         <!--Respuesta correcta radioButton1  -->
             <h2>1. Que es Kodu?</h2>
@@ -32,7 +40,7 @@
 
          <div class="flex-container">
         <!--Respuesta correcta radioButton3  -->
-            <h2>2. Que demuestra KOdu?</h2>
+            <h2>2. Que demuestra Kodu?</h2>
             <asp:RadioButton ID="RadioButton3" CssClass="radio" runat="server" text="Kodu Demuestra que la programacion es creativa" GroupName="dos" /> 
             <asp:RadioButton ID="RadioButton4" CssClass="radio" runat="server" text="Kodu Demuestra fracciones Matematicas " GroupName="dos" />
         </div>

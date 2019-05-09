@@ -19,29 +19,16 @@
     margin-bottom: auto;
 }
 
-#Button1 {
-    margin-left: 160px;
-}
 
-#Button2  {
-    margin-left: 60px;
-}
-#Button3 {
-    margin-left: 60px;
-}
-
-#Button4 {
-    margin-left: 160px;
-}
-#Button5 {
-    margin-left: 60px;
-}
-#Button6 {
-    margin-left: 60px;
-}
-.botones{
+.botones {
+    margin-top: 20px;
     padding-top: 30px;
-    margin-left: 30px;
+    margin-left: 300px;
+}
+
+#entradas{
+    margin-top: 20px;
+    margin-left: 300px;
 }
 .btn {
     background-color: #C0C0C0; /* Blue background */

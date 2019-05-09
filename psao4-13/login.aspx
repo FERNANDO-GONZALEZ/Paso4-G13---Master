@@ -17,15 +17,15 @@
     <form id="form1" runat="server">
          <div id="nav" class="flex-container">
         <div id="logo" class="col-lg-5">
-                <img src="img/unad.png" alt="" width="431" height="250" />
+                <img src="img/unad.png" alt="" width="300" height="140" />
         </div>
         <div id="titulo" class="col-lg-7">
-            <h1>INGRESO AL SISTEMA</h1>
-            <h2>
+            <h2>INGRESO AL SISTEMA</h2>
+            <h3>
                 PROCESO: ENSEÑANZA Y
                 APRENDIZAJE PARA
                 ESTUDIANTES
-            </h2>
+            </h3>
         </div>
              <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:loginwebConnectionString %>" SelectCommand="consultarusuario" SelectCommandType="StoredProcedure">
                  <SelectParameters>
