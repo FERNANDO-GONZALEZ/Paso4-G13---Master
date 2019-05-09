@@ -20,4 +20,7 @@ Partial Class areasdeestudio
     Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Response.Redirect("scratch.aspx")
     End Sub
+    Protected Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        Response.Redirect("menu.aspx")
+    End Sub
 End Class
