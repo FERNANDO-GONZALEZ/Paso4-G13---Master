@@ -16,24 +16,22 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+       
         <picture id="unad" >
             <img src="img/unad1.png" alt="" width="629" height="163" />
 
         </picture>
         
-    </div>
+
 
     <div id="titulo">
         <h1>PROCESO: ENSEÑANZA Y APRENDIZAJE PARA ESTUDIANTES</h1>
     </div>
 
-    <div  class="flex-container botones">
-        
+    <div  class="flex-container">
         <asp:Button ID="Button1" CssClass="btn" runat="server" Text="REGISTRO" />
-        <asp:Button ID="Button2"  CssClass="btn" runat="server" Text="AREAS DE ESTUDIO" />
-
-       
+        <asp:Button ID="Button2" CssClass="btn" runat="server" Text="AREAS DE ESTUDIO" />
+        <asp:Button ID="Button4" CssClass="btn" runat="server" Text="REGRESAR" ImangeUrl="img/INGLES2.png" />
     </div>
 
     </form>

@@ -48,7 +48,7 @@
              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="Button5" CssClass="btn" runat="server" Text="CONTENIDO AUDIO VISUAL"    Height="60px" Width="240px" ImangeUrl="img/INGLES2.png" />
-            <asp:Button ID="Button2" CssClass="btn" runat="server" Text="EXAMEN INGLES 0"           Height="60px" Width="240px" ImangeUrl="img/INGLES2.png" />
+            <asp:Button ID="Button2" CssClass="btn" runat="server" Text="EXAMEN INGLES"           Height="60px" Width="240px" ImangeUrl="img/INGLES2.png" />
          </div>
                             <br /> <br />
         <div  class="flex-container" >
@@ -57,7 +57,7 @@
              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button1" CssClass="btn" runat="server" Text="REGRESAR"                  Height="60px" Width="240px" ImangeUrl="img/INGLES2.png" />
+            <asp:Button ID="Button1" CssClass="btn" runat="server" Text="REGRESAR" Height="60px" Width="240px" ImangeUrl="img/INGLES2.png" />
         </div>
 
     

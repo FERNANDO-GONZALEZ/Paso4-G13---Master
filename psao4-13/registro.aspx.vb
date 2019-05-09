@@ -7,12 +7,10 @@ Partial Class registro
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles GRABAR.Click
         Dim Conexion As String
-
         Conexion = "Data Source = (local)\SQLEXPRESS;Database=loginweb;Integrated Security=True"
         Dim seleccion As String = "INSERT INTO registro (idEstudiante,nombreEstudiante,apellidoEstudiante,direccion,telefono,celular) VALUES('" & TextBox1.Text & "', '" & TextBox2.Text & "','" & TextBox3.Text & "','" & TextBox4.Text & "','" & TextBox5.Text & "','" & TextBox6.Text & "')"
         Dim adaptadordedatos As SqlDataAdapter
         Dim tabladedatos As New DataTable
-
         Try
             adaptadordedatos = New SqlDataAdapter(seleccion, Conexion)
             adaptadordedatos.Fill(tabladedatos)
@@ -34,13 +32,11 @@ Partial Class registro
         Dim oDataSet As New DataSet
         Dim LISTA As Byte
         Try
-
             adaptadordedatos = New SqlDataAdapter(seleccion, Conexion)
             adaptadordedatos.Fill(tabladedatos)
             GridView1.DataSource = tabladedatos
             GridView1.DataBind()
             Contador.Text = "Total de registros: " & tabladedatos.Rows.Count
-
             If TextBox1.Text <> "" Then
                 oDataSet = New DataSet
                 adaptadordedatos.Fill(oDataSet, "registro")
@@ -120,5 +116,8 @@ Partial Class registro
         Catch exc As Exception
             MsgBox("Error en la conexion: " & exc.Message)
         End Try
+    End Sub
+    Protected Sub REGRESAR_Click(sender As Object, e As EventArgs) Handles REGRESAR.Click
+        Response.Redirect("menu.aspx")
     End Sub
 End Class

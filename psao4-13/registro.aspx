@@ -27,6 +27,7 @@
         <asp:Button ID="BORRAR"     CssClass="btn" runat="server" Text="BORRAR"     Height="50px" Width="120px" />
         <asp:Button ID="LISTADO"    CssClass="btn" runat="server" Text="LISTADO"    Height="50px" Width="120px" />
         <asp:Button ID="NUEVO"      CssClass="btn" runat="server" Text="NUEVO"      Height="50px" Width="120px" />
+        <asp:Button ID="REGRESAR"   CssClass="btn" runat="server" Text="SALIR"      Height="50px" Width="120px" />
         <br />
         <br />
        
