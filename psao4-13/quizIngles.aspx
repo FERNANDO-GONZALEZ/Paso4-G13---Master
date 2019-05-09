@@ -23,7 +23,10 @@
             <h1>Quiz Inglés Unad</h1>
         </div>
 
-       
+        ID ESTUDIANTE:&nbsp;
+        <asp:TextBox ID="TextBox1" runat="server" BackColor="#FFFFCC"></asp:TextBox>
+         NOMBRE:&nbsp;
+        <asp:TextBox ID="TextBox2" runat="server" BackColor="#FFFFCC"></asp:TextBox>
                 <div id="mensaje">
         
                     <%
