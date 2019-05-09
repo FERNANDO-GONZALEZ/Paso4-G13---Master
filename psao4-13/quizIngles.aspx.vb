@@ -4,7 +4,7 @@ Partial Class quizIngles
 
 
     Public valor As String
-    'variable que guarda la nota y se envia a base de datos
+    'variable que guarda la nota
     Public nota As String
     'materia ingles0 que se envia a base de datos
     Public materia As String
@@ -24,19 +24,17 @@ Partial Class quizIngles
         valor = "Su resultado es: "
         If RadioButton1.Checked Then
             nota += 1
-        End If
-        If RadioButton4.Checked Then
+        ElseIf RadioButton4.Checked Then
             nota += 1
-        End If
-        If RadioButton6.Checked Then
+        ElseIf RadioButton6.Checked Then
             nota += 1
-        End If
-        If RadioButton7.Checked Then
+        ElseIf RadioButton7.Checked Then
             nota += 1
-        End If
-        If RadioButton9.Checked Then
+        ElseIf RadioButton9.Checked Then
             nota += 1
-        End If
+                        Else
+                            nota = 0
+                        End If
 
 
     End Sub
