@@ -14,18 +14,24 @@ Partial Class quizIngles
     Public nombreArea As String
     'idestudiante
     Public idEstudiante As Integer
-    'nombre estudiante
-    Public nombreEstudiante As String
 
     Protected Sub Bustton1_Click(sender As Object, e As EventArgs) Handles Bustton1.Click
 
         idArea = 1
 
-        nombreArea = "Ingles 0"
+        nombreArea = "Ingles"
 
-        idEstudiante = TextBox1.Text
 
-        'nombreEstudiante = TextBox2.Text
+
+        If TextBox1.Text = "" Then
+            valor = "Debe ingresar el ID"
+
+            Return
+
+        Else
+            'guarda id ingresesada en el textbox a la variable
+            idEstudiante = TextBox1.Text
+        End If
 
 
 
@@ -43,7 +49,7 @@ Partial Class quizIngles
         If RadioButton7.Checked = True Then nota = nota + 1
         If RadioButton9.Checked = True Then nota = nota + 1
 
-        TextBox2.Text = nota
+
         Dim Conexion As String
 
         Conexion = "Data Source = (local)\SQLEXPRESS;Database=loginweb;Integrated Security=True"
