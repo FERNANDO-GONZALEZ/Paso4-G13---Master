@@ -55,7 +55,7 @@ Partial Class quizIngles
         Dim Conexion As String
 
         Conexion = "Data Source = (local)\SQLEXPRESS;Database=loginweb;Integrated Security=True"
-        Dim seleccion As String = "UPDATE registro SET nIngles = '" & nota & "' WHERE idEstudiante='" & TextBox1.Text & "'"
+        Dim seleccion As String = "UPDATE registro SET nRealidadvirtual = '" & nota & "' WHERE idEstudiante='" & TextBox1.Text & "'"
         Dim adaptadordedatos As SqlDataAdapter
         Dim tabladedatos As New DataTable
 
@@ -70,4 +70,7 @@ Partial Class quizIngles
         End Try
     End Sub
 
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Response.Redirect("realidad_virtual.aspx")
+    End Sub
 End Class

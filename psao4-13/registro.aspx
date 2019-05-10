@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/registro.css" />
 </head>
 <body>
+    <div>
     <form runat="server">
        <div>
             <picture id="unad" >&nbsp;<img src="img/unad1.png" alt="" style="height: 95px; width: 460px; margin-left: 172px;" />
@@ -43,7 +44,7 @@
         <asp:TextBox ID="TextBox3" runat="server" Width="193px" BackColor="#FFCCFF"></asp:TextBox>
         <br />
         <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
         DIRECCIÓN:     
         <asp:TextBox ID="TextBox4" runat="server" Width="253px" BackColor="#FFCCFF"></asp:TextBox>
         TELÉFONO:      
@@ -56,18 +57,17 @@
         <br />
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:loginwebConnectionString %>" SelectCommand="SELECT [idArea], [nombreArea] FROM [areas]">
         </asp:SqlDataSource>
-        <div style="margin-left: 300px">
-            <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None">
-                <AlternatingRowStyle BackColor="White" />
-                <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
-                <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
-                <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
-                <RowStyle BackColor="#FFFBD6" ForeColor="#333333" />
-                <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
-                <SortedAscendingCellStyle BackColor="#FDF5AC" />
-                <SortedAscendingHeaderStyle BackColor="#4D0000" />
-                <SortedDescendingCellStyle BackColor="#FCF6C0" />
-                <SortedDescendingHeaderStyle BackColor="#820000" />
+        <div style="margin-left: 0px">
+            <asp:GridView ID="GridView1" runat="server" CellPadding="3" GridLines="None" BackColor="White" BorderColor="White" BorderStyle="Ridge" BorderWidth="2px" CellSpacing="1">
+                <FooterStyle BackColor="#C6C3C6" ForeColor="Black" />
+                <HeaderStyle BackColor="#4A3C8C" Font-Bold="True" ForeColor="#E7E7FF" />
+                <PagerStyle BackColor="#C6C3C6" ForeColor="Black" HorizontalAlign="Right" />
+                <RowStyle BackColor="#DEDFDE" ForeColor="Black" />
+                <SelectedRowStyle BackColor="#9471DE" Font-Bold="True" ForeColor="White" />
+                <SortedAscendingCellStyle BackColor="#F1F1F1" />
+                <SortedAscendingHeaderStyle BackColor="#594B9C" />
+                <SortedDescendingCellStyle BackColor="#CAC9C9" />
+                <SortedDescendingHeaderStyle BackColor="#33276A" />
             </asp:GridView>
         </div>
         <p style="margin-left: 300px">
@@ -77,6 +77,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </form>
-    
+    </div>
 </body>
 </html>

@@ -1,9 +1,9 @@
-﻿body {    height: 432px;
+﻿body {    height: 180px;
 }
 
 #unad {
     
-    padding-left: 280px;
+    padding-left: 180px;
 }
 
 #titulo {
@@ -14,7 +14,7 @@
     text-align: center;
     color: blue;
     height: 10px;
-    margin-left: auto;
+    margin-left: 180;
     margin-right: auto;
     margin-bottom: auto;
 }
@@ -23,12 +23,12 @@
 .botones {
     margin-top: 20px;
     padding-top: 30px;
-    margin-left: 300px;
+    margin-left: 180px;
 }
 
 #entradas{
     margin-top: 20px;
-    margin-left: 300px;
+    margin-left: 180px;
 }
 .btn {
     background-color: #C0C0C0; /* Blue background */

@@ -78,6 +78,7 @@
         <div id="boton">
           <p>  
             <asp:Button ID="Bustton1" runat="server" Text="Enviar"  Width="160" Height="50"  />  
+            <asp:Button ID="Button1" runat="server" Text="Regresar"  Width="160" Height="50"  />
           </p>  
         </div>
         

@@ -16,7 +16,7 @@ Partial Class quizIngles
     'idestudiante
     Public idEstudiante As Integer
 
-    Protected Sub Bustton1_Click(sender As Object, e As EventArgs) Handles Bustton1.Click
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
         idArea = 3
 
@@ -65,5 +65,8 @@ Partial Class quizIngles
         Catch exc As Exception
             MsgBox("Error en la conexion: " & exc.Message)
         End Try
+    End Sub
+    Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Response.Redirect("scratch.aspx")
     End Sub
 End Class
