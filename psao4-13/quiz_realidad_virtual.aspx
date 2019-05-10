@@ -9,7 +9,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <link rel="stylesheet" type="text/css" href="css/quiz.css" />
+    <link rel="stylesheet" type="text/css" href="css/quizrealidadV.css" />
 
 </head>
 <body>
@@ -22,7 +22,23 @@
             </div>
             <h1>QUIZ REALIDAD VIRTUAL</h1>
         </div>
-        <div class="flex-container">
+        <div id="estu">
+                ID ESTUDIANTE:&nbsp;
+                <asp:TextBox ID="TextBox1" runat="server" BackColor="#FFFFCC"></asp:TextBox>
+       </div>
+        
+                <div id="mensaje">
+        
+                    <%
+                        Response.Write(valor)
+                        If nota <> 0 Then
+                            Response.Write(nota)
+                        End If
+
+                    %>
+            
+                 </div>
+          <div class="flex-container">
         <!--Respuesta correcta radioButton1  -->
             <h2>1. ¿Qué es la Realidad Virtual?</h2>
             <asp:RadioButton  ID="RadioButton1" CssClass="radio" runat="server" text="Entorno de escenas generadas por un dispositivo informático" GroupName="uno" /> 
@@ -32,10 +48,9 @@
 
          <div class="flex-container">
         <!--Respuesta correcta radioButton4  -->
-            <h2>2.¿en qué se diferencia la realidad virtual de la realidad aumentada</h2>
-            <asp:RadioButton ID="RadioButton3" CssClass="radio" runat="server" text="La realidad Virtual estimula los sentidos y la realidad aumentada no estimula los sentidos " GroupName="dos" /> 
-              <asp:RadioButton ID="RadioButton4" CssClass="radio" runat="server" text="La Realidad Virtual propone escenarios virtuales generados al 100% por un dispositivo informático y La Realidad Aumentada mezcla un escenario real capturado a través de una cámara " GroupName="dos" />
-           
+            <h2>2.¿En qué se diferencia la realidad virtual de la realidad aumentada</h2>
+            <asp:RadioButton ID="RadioButton3" CssClass="radio" runat="server" text="La realidad Virtual estimula los sentidos y la realidad aumentada no estimula los sentidos" GroupName="dos" /> 
+            <asp:RadioButton ID="RadioButton4" CssClass="radio" runat="server" text="La Realidad Virtual propone escenarios virtuales generados al 100% por un dispositivo informático y La Realidad Aumentada mezcla un escenario real capturado a través de una cámara" GroupName="dos" />
         </div>
 
          <div class="flex-container">
@@ -49,7 +64,7 @@
          <div class="flex-container">
         <!--Respuesta correcta radioButton7  -->
             <h2>4.PUEDO USARLA EN CUALQUIER DISPOSITIVO ?</h2>
-            <asp:RadioButton ID="RadioButton7" CssClass="radio" runat="server" text="Solo en plataforma android " GroupName="cuartro" /> 
+            <asp:RadioButton ID="RadioButton7" CssClass="radio" runat="server" text="Solo en plataforma android" GroupName="cuartro" /> 
             <asp:RadioButton ID="RadioButton8" CssClass="radio" runat="server" text="En todas las plataformas que se encuentran en el mercado" GroupName="cuatro" />
         
          </div>
@@ -65,7 +80,6 @@
             <asp:Button ID="Bustton1" runat="server" Text="Enviar"  Width="160" Height="50"  />  
           </p>  
         </div>
-
         
     </form>
         </div>

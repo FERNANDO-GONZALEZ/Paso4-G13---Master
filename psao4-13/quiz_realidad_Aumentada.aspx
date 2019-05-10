@@ -9,7 +9,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <link rel="stylesheet" type="text/css" href="css/quiz.css" />
+    <link rel="stylesheet" type="text/css" href="css/quizIngles.css" />
 
 </head>
 <body>
@@ -22,6 +22,22 @@
             </div>
             <h1>QUIZ REALIDAD AUMENTADA</h1>
         </div>
+        <div id="estu">
+                ID ESTUDIANTE:&nbsp;
+                <asp:TextBox ID="TextBox1" runat="server" BackColor="#FFFFCC"></asp:TextBox>
+       </div>
+        
+                <div id="mensaje">
+        
+                    <%
+                        Response.Write(valor)
+                        If nota <> 0 Then
+                            Response.Write(nota)
+                        End If
+
+                    %>
+            
+                 </div>
         <div class="flex-container">
         <!--Respuesta correcta radioButton1  -->
             <h2>1. PUEDO USARLA EN CUALQUIER DISPOSITIVO ?</h2>
@@ -32,9 +48,9 @@
 
          <div class="flex-container">
         <!--Respuesta correcta radioButton4  -->
-            <h2>2.  ¿Cómo funciona la Realidad Aumentada ?  </h2>
-            <asp:RadioButton ID="RadioButton3" CssClass="radio" runat="server" text="A través del escaneo de imágenes prediseñadas denominadas “trigers” que al ser escaneadasaccionan un video. " GroupName="dos" /> 
-            <asp:RadioButton ID="RadioButton4" CssClass="radio" runat="server" text="Al momento de capturar una imagen esta es llevada a una plataforma la cual activa el modo realidad Aumentada " GroupName="dos" />
+            <h2> ¿Cómo funciona la Realidad Aumentada ?</h2>
+            <asp:RadioButton ID="RadioButton3" CssClass="radio" runat="server" text="A través del escaneo de imágenes prediseñadas denominadas “trigers” que al ser escaneadasaccionan un video." GroupName="dos" /> 
+            <asp:RadioButton ID="RadioButton4" CssClass="radio" runat="server" text="Al momento de capturar una imagen esta es llevada a una plataforma la cual activa el modo realidad Aumentada" GroupName="dos" />
         </div>
 
          <div class="flex-container">
@@ -47,16 +63,16 @@
 
          <div class="flex-container">
         <!--Respuesta correcta radioButton7  -->
-            <h2>4.  ¿Qué es un “triger”?   </h2>
+            <h2>4.  ¿Qué es un “triger”?</h2>
             <asp:RadioButton ID="RadioButton7" CssClass="radio" runat="server" text="Software que controla los dispositivos vinculados al software" GroupName="cuartro" /> 
-            <asp:RadioButton ID="RadioButton8" CssClass="radio" runat="server" text=" Los trigers son las imágenes que accionan a un video y éste pueda ser reproducido." GroupName="cuatro" />
+            <asp:RadioButton ID="RadioButton8" CssClass="radio" runat="server" text="Aplicativo movil" GroupName="cuatro" />
         
          </div>
 
          <div class="flex-container">
         <!--Respuesta correcta radioButton9  -->
             <h2>5. ¿Qué investiga la Realidad Aumentada?</h2>
-            <asp:RadioButton ID="RadioButton9" CssClass="radio" runat="server" text="Explora la aplicación de imágenes generadas por ordenador en tiempo real a secuencias de vídeo como una forma de ampliar el mundo ficticio" GroupName="cinco" /> 
+            <asp:RadioButton ID="RadioButton9" CssClass="radio" runat="server" text="Explora la aplicación de imágenes generadas por ordenador en tiempo real a secuencias de vídeo como una forma de ampliar el mundo ficticios" GroupName="cinco" /> 
             <asp:RadioButton ID="RadioButton10" CssClass="radio" runat="server" text="Explora la aplicación de imágenes generadas por ordenador en tiempo real a secuencias de vídeo como una forma de ampliar el mundo real" GroupName="cinco" />
         </div >
         <div id="boton">
@@ -64,7 +80,8 @@
             <asp:Button ID="Bustton1" runat="server" Text="Enviar"  Width="160" Height="50"  />  
           </p>  
         </div>
-
+        
+        
         
     </form>
         </div>

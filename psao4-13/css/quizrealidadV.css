@@ -1,0 +1,44 @@
+﻿body {
+    background-color: lightblue;
+}
+
+#gray {
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    border-radius: 25px;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#boton {
+    margin-left: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.radio {
+    float: left;
+}
+
+#mensaje {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: larger;
+    margin-left: auto;
+    padding: 10px;
+}
+
+#estu {
+    margin-left: 300px;
+}

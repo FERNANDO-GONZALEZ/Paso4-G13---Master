@@ -9,7 +9,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <link rel="stylesheet" type="text/css" href="css/quizKodu.css" />
+    <link rel="stylesheet" type="text/css" href="css/quizIngles.css" />
 
 </head>
 <body>
@@ -22,10 +22,18 @@
             </div>
             <h1>QUIZ KODU</h1>
         </div>
-         <div id="mensaje">
+         <div id="estu">
+                ID ESTUDIANTE:&nbsp;
+                <asp:TextBox ID="TextBox1" runat="server" BackColor="#FFFFCC"></asp:TextBox>
+       </div>
+        
+                <div id="mensaje">
         
                     <%
                         Response.Write(valor)
+                        If nota <> 0 Then
+                            Response.Write(nota)
+                        End If
 
                     %>
             
