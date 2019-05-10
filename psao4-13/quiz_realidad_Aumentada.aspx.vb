@@ -45,10 +45,10 @@ Partial Class quizIngles
         valor = "Su resultado es: "
         'son las respuestas correctas, revisar que radio button son los correctos
         If RadioButton1.Checked = True Then nota = nota + 1
-        If RadioButton4.Checked = True Then nota = nota + 1
-        If RadioButton6.Checked = True Then nota = nota + 1
+        If RadioButton3.Checked = True Then nota = nota + 1
+        If RadioButton5.Checked = True Then nota = nota + 1
         If RadioButton7.Checked = True Then nota = nota + 1
-        If RadioButton9.Checked = True Then nota = nota + 1
+        If RadioButton10.Checked = True Then nota = nota + 1
 
 
         Dim Conexion As String

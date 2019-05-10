@@ -41,7 +41,7 @@
         <div class="flex-container">
         <!--Respuesta correcta radioButton1  -->
             <h2>1. PUEDO USARLA EN CUALQUIER DISPOSITIVO ?</h2>
-            <asp:RadioButton  ID="RadioButton1" CssClass="radio" runat="server" text="La Realidad Aumentada prácticamente si puede ser utilizada hoy en día en cualquier dispositivo" GroupName="uno" /> 
+            <asp:RadioButton  ID="RadioButton1" CssClass="radio" runat="server" text="La Realidad Aumentada prácticamente puede ser utilizada hoy en día en cualquier dispositivo" GroupName="uno" /> 
             <asp:RadioButton ID="RadioButton2" CssClass="radio" runat="server" text="La Realidad Aumentada solo funcion en plataforma MAC" GroupName="uno" />
         
          </div>

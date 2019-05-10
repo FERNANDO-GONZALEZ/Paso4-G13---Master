@@ -44,8 +44,8 @@ Partial Class quizIngles
         ' mensaje en la pagina web
         valor = "Su resultado es: "
         If RadioButton1.Checked = True Then nota = nota + 1
-        If RadioButton4.Checked = True Then nota = nota + 1
-        If RadioButton6.Checked = True Then nota = nota + 1
+        If RadioButton3.Checked = True Then nota = nota + 1
+        If RadioButton5.Checked = True Then nota = nota + 1
         If RadioButton7.Checked = True Then nota = nota + 1
         If RadioButton9.Checked = True Then nota = nota + 1
 
