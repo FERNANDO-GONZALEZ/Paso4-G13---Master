@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="contenido_ingles.aspx.vb" Inherits="areasdeestudio" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="contenido_ingles1.aspx.vb" Inherits="areasdeestudio" %>
 
 <!DOCTYPE html>
 
@@ -9,7 +9,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <link rel="stylesheet" type="text/css" href="css/ingles.css" />
+    <link rel="stylesheet" type="text/css" href="css/contenidoingles1.css" />
 
     
 </head>
@@ -22,15 +22,24 @@
             </div>
         
            
-        </div>
+        
    
             
             <div id="titulo" class="col-lg-4">
-                        <h2>CURSO INGLES 0 </h2>
+                        <h2>CURSO INGLES I </h2>
+            </div>
+
+        <div id="" class="col-lg-4 lectura">
+                 <h2 style="text-align: center;">Reading Present Continuous: Family Celebration in Ecuador</h2>
+                <p>
+
+Hello this is Jack reporting from the Annual Family Celebration in Quito, Ecuador. People are having a wonderful time. Most men are cooking a traditional dish called Fanesca. Some women are playing hide-and-seek with their children. The elderly are listening to old music and telling stories from the past.
+
+I am here with Mari </p>
             </div>
 
         <div id="titulo" class="col-lg-4">
-                <img src="img/INGLES_2.PNG" alt="" width="1100" height="300" />
+                <img src="img/pc.jpg" alt="" width="600" height="315" />
             </div>
 
           <div id="titulo" class="col-lg-4">
@@ -44,16 +53,11 @@
          <div id="divVideo" runat="server">
         </div>
 
-             <div id="titulo" class="col-lg-4">
-                        <h2>DESCARGUE EL ARCHIVO PDF</h2>
-            </div>
+             
 
- <div id="titulo" class="col-lg-4">
-                <img src="img/imagen_pdf.jpg" alt="" width="200" height="200" />
-            </div>
+ 
            
-            <h1> <a href="cursos_PDF/el%20mas%20completo%20ingles%2015261%20completo.pdf">El curso más completo de inglés.pdf</a> </h1>  
-    </div>
+   </div>
 
     
 

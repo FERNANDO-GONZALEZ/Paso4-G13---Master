@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="contenido_ingles.aspx.vb" Inherits="areasdeestudio" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="contenido_ingles2.aspx.vb" Inherits="areasdeestudio" %>
 
 <!DOCTYPE html>
 
@@ -9,7 +9,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <link rel="stylesheet" type="text/css" href="css/ingles.css" />
+    <link rel="stylesheet" type="text/css" href="css/contenidoingles1.css" />
 
     
 </head>
@@ -22,15 +22,27 @@
             </div>
         
            
-        </div>
+        
    
             
             <div id="titulo" class="col-lg-4">
-                        <h2>CURSO INGLES 0 </h2>
+                        <h2>CURSO INGLES II </h2>
+            </div>
+
+        <div id="" class="col-lg-4 lectura">
+                 <h2 style="text-align: center;">Simple Present Story: Who is he? Where is he? What does he do?</h2>
+                <p>
+
+
+Hank is a cowboy. He lives on a farm. He has a horse named Ginger. Hank loves Ginger. He rides Ginger every day. Sometimes they walk slowly, and sometimes they run fast. They always have a good time.
+
+Ginger is Hank's horse. She is light brown. Her tail and mane are dark brown. She is three years old. She lives in the stable by the house.
+
+Ginger waits for Hank every morning. She enjoys their time together. Often, Hank gives her apples. After long rides, Hank always washes and brushes Ginger. He usually brushes her tail. Then he gives her food and fresh water. Ginger loves Hank. </p>
             </div>
 
         <div id="titulo" class="col-lg-4">
-                <img src="img/INGLES_2.PNG" alt="" width="1100" height="300" />
+                <img src="img/present.jpg" alt="" width="600" height="315" />
             </div>
 
           <div id="titulo" class="col-lg-4">
@@ -44,16 +56,11 @@
          <div id="divVideo" runat="server">
         </div>
 
-             <div id="titulo" class="col-lg-4">
-                        <h2>DESCARGUE EL ARCHIVO PDF</h2>
-            </div>
+             
 
- <div id="titulo" class="col-lg-4">
-                <img src="img/imagen_pdf.jpg" alt="" width="200" height="200" />
-            </div>
+ 
            
-            <h1> <a href="cursos_PDF/el%20mas%20completo%20ingles%2015261%20completo.pdf">El curso más completo de inglés.pdf</a> </h1>  
-    </div>
+   </div>
 
     
 

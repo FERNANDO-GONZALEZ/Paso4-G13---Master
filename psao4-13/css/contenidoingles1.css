@@ -1,0 +1,64 @@
+﻿
+.flex-container {
+    display: flex;
+
+}
+
+
+#titulo {
+    
+    
+    text-align: center;
+   
+    
+    color: blue;
+    padding-bottom: 20px;
+}
+#uno{
+    margin-left: 286px;
+}
+#ingles {
+    text-align: center;
+    margin-left: 136px;
+}
+#dos {
+    margin-left: 136px;
+}
+
+#Button1 {
+    margin-left: 200px;
+    margin-right: 20px;
+}
+#Button3{
+    margin-right: 20px;
+}
+
+
+#Button2 {
+    margin-left: 60px;
+}
+
+#Button5{
+    margin-left: 100px;
+}
+
+
+}
+.btn {
+    background-color: #C0C0C0; /* Blue background */
+    color: black; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+.lectura {
+    color: black;
+    text-align: justify;
+    width: 500px;
+    border-left: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
