@@ -5,10 +5,10 @@
         Response.Redirect("submenu_ingles.aspx")
     End Sub
     Protected Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        Response.Redirect("contenido_ingles.aspx")
+        Response.Redirect("contenido_ingles2.aspx")
     End Sub
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Response.Redirect("quizIngles.aspx")
+        Response.Redirect("quizIngles2.aspx")
     End Sub
 End Class
 

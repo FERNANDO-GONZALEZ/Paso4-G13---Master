@@ -1,11 +1,11 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="ingles.aspx.vb" Inherits="areasdeestudio" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="ingles2.aspx.vb" Inherits="areasdeestudio" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Inglés</title>
+    <title>Inglés 2</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -28,14 +28,14 @@
         </div>
         <div class="flex-container">
             <div id="uno" class="col-lg-4">
-                <img src="img/INGLES.PNG" alt="" width="220" height="100" />
+                <img src="img/ingles2_2.PNG" alt="" width="220" height="100" />
             </div>
             <div id="ingles"class="col-lg-4">
-                <h1 align="center"> INGLÉS 0</h1>
+                <h1 align="center"> INGLÉS 2</h1>
 
             </div>
             <div id="dos" class="col-lg-4">
-                <img src="img/INGLES.PNG" alt="" width="220" height="100" />
+                <img src="img/ingles2_2.PNG" alt="" width="220" height="100" />
             </div>
         </div>
 
@@ -48,7 +48,7 @@
              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="Button5" CssClass="btn" runat="server" Text="CONTENIDO AUDIO VISUAL"    Height="60px" Width="240px" ImangeUrl="img/INGLES2.png" />
-            <asp:Button ID="Button2" CssClass="btn" runat="server" Text="EXAMEN INGLES"           Height="60px" Width="240px" ImangeUrl="img/INGLES2.png" />
+            <asp:Button ID="Button2" CssClass="btn" runat="server" Text="EXAMEN INGLES 2"           Height="60px" Width="240px" ImangeUrl="img/INGLES2.png" />
          </div>
                             <br /> <br />
         <div  class="flex-container" >

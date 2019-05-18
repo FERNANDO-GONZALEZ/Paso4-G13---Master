@@ -35,7 +35,7 @@ Partial Class quizIngles
 
 
 
-        If RadioButton1.Checked = False And RadioButton2.Checked = False And RadioButton3.Checked = False And RadioButton4.Checked = False And RadioButton5.Checked = False And RadioButton6.Checked = False And RadioButton7.Checked = False And RadioButton8.Checked = False And RadioButton9.Checked = False And RadioButton10.Checked = False Then
+        If RadioButton1.Checked = False And RadioButton2.Checked = False And RadioButton3.Checked = False And RadioButton4.Checked = False And RadioButton5.Checked = False And RadioButton6.Checked = False And RadioButton7.Checked = False And RadioButton8.Checked = False And RadioButton9.Checked = False And RadioButton10.Checked = False And RadioButton11.Checked = False And RadioButton12.Checked = False And RadioButton13.Checked = False And RadioButton14.Checked = False And RadioButton15.Checked = False Then
             valor = "Debe responder a todas las preguntas"
             'MsgBox("debe responder todas las respuestas")
             Return
@@ -44,10 +44,10 @@ Partial Class quizIngles
         ' mensaje en la pagina web
         valor = "Su resultado es: "
         If RadioButton1.Checked = True Then nota = nota + 1
-        If RadioButton4.Checked = True Then nota = nota + 1
-        If RadioButton6.Checked = True Then nota = nota + 1
-        If RadioButton7.Checked = True Then nota = nota + 1
-        If RadioButton9.Checked = True Then nota = nota + 1
+        If RadioButton12.Checked = True Then nota = nota + 1
+        If RadioButton13.Checked = True Then nota = nota + 1
+        If RadioButton14.Checked = True Then nota = nota + 1
+        If RadioButton10.Checked = True Then nota = nota + 1
 
 
         Dim Conexion As String

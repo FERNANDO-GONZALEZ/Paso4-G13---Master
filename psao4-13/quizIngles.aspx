@@ -42,41 +42,44 @@
 
         <div class="flex-container">
         <!--Respuesta correcta radioButton1  -->
-            <h2>1. Hi, my name is John</h2>
-            <asp:RadioButton  ID="RadioButton1" CssClass="radio" runat="server" text="Hello, I'm Carlos, nice to meet you!" GroupName="uno" /> 
-            <asp:RadioButton ID="RadioButton2" CssClass="radio" runat="server" text="hi, your name is John!" GroupName="uno" />
+            <h2>1. Indique cuál es el significado de "Fat":</h2>
+            <asp:RadioButton  ID="RadioButton1" CssClass="radio" runat="server" text="Gordo" GroupName="uno" /> 
+            <asp:RadioButton ID="RadioButton2" CssClass="radio" runat="server" text="Esquelético" GroupName="uno" />
+            <asp:RadioButton ID="RadioButton11" CssClass="radio" runat="server" text="Delgado" GroupName="uno" />
         
          </div>
 
          <div class="flex-container">
-        <!--Respuesta correcta radioButton4  -->
-            <h2>2. What's his name?</h2>
-            <asp:RadioButton ID="RadioButton3" CssClass="radio" runat="server" text="I am Tony!" GroupName="dos" /> 
-            <asp:RadioButton ID="RadioButton4" CssClass="radio" runat="server" text="his name is Tony" GroupName="dos" />
+        <!--Respuesta correcta radioButton12  -->
+            <h2>2. Indique cuál es el significado de "Turtle":</h2>
+            <asp:RadioButton ID="RadioButton3" CssClass="radio" runat="server" text="Rana" GroupName="dos" /> 
+            <asp:RadioButton ID="RadioButton4" CssClass="radio" runat="server" text="Sapo" GroupName="dos" />
+            <asp:RadioButton ID="RadioButton12" CssClass="radio" runat="server" text="Tortuga" GroupName="uno" />
         </div>
 
          <div class="flex-container">
-        <!--Respuesta correcta radioButton6  -->
-            <h2>3. Are you working?</h2>
-            <asp:RadioButton ID="RadioButton5" CssClass="radio" runat="server" text="No, I don't working" GroupName="tres" /> 
-            <asp:RadioButton ID="RadioButton6" CssClass="radio" runat="server" text="Yes, we are working" GroupName="tres" />
-        
+        <!--Respuesta correcta radioButton13  -->
+            <h2>3. Indique cuál es el significado de "Library":</h2>
+            <asp:RadioButton ID="RadioButton5" CssClass="radio" runat="server" text="Biblioteca" GroupName="tres" /> 
+            <asp:RadioButton ID="RadioButton6" CssClass="radio" runat="server" text="Galería" GroupName="tres" />
+            <asp:RadioButton ID="RadioButton13" CssClass="radio" runat="server" text="Librería" GroupName="uno" />
          </div>
 
          <div class="flex-container">
-        <!--Respuesta correcta radioButton7  -->
-            <h2>4. Where are you living?</h2>
-            <asp:RadioButton ID="RadioButton7" CssClass="radio" runat="server" text="I'm living in Cali!" GroupName="cuartro" /> 
-            <asp:RadioButton ID="RadioButton8" CssClass="radio" runat="server" text="I live in Cali" GroupName="cuatro" />
-        
+        <!--Respuesta correcta radioButton14  -->
+            <h2>4. Indique cuál es el significado de "Sweater":</h2>
+            <asp:RadioButton ID="RadioButton7" CssClass="radio" runat="server" text="Chaleco" GroupName="cuartro" /> 
+            <asp:RadioButton ID="RadioButton8" CssClass="radio" runat="server" text="Jersey" GroupName="cuatro" />
+            <asp:RadioButton ID="RadioButton14" CssClass="radio" runat="server" text="Abrigo" GroupName="uno" />
          </div>
 
          <div class="flex-container">
-        <!--Respuesta correcta radioButton9  -->
-            <h2>5. Is he playing football?</h2>
-            <asp:RadioButton ID="RadioButton9" CssClass="radio" runat="server" text="No, he's not. He is playing tennis" GroupName="cinco" /> 
-            <asp:RadioButton ID="RadioButton10" CssClass="radio" runat="server" text="Yes, they are playing football" GroupName="cinco" />
-        </div >
+        <!--Respuesta correcta radioButton10  -->
+            <h2>5. Indique cuál es el significado de "Tree":</h2>
+            <asp:RadioButton ID="RadioButton9" CssClass="radio" runat="server" text="Estanque" GroupName="cinco" /> 
+            <asp:RadioButton ID="RadioButton10" CssClass="radio" runat="server" text="Árbol" GroupName="cinco" />
+            <asp:RadioButton ID="RadioButton15" CssClass="radio" runat="server" text="Fuente" GroupName="uno" />
+         </div >
         <div id="boton">
           <p>  
             <asp:Button ID="Bustton1" runat="server" Text="Enviar"  Width="160" Height="50"  />  
