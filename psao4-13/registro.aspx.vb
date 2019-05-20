@@ -8,7 +8,7 @@ Partial Class registro
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles GRABAR.Click
         Dim Conexion As String
         Conexion = "Data Source = (local)\SQLEXPRESS;Database=loginweb;Integrated Security=True"
-        Dim seleccion As String = "INSERT INTO registro (idEstudiante,nombreEstudiante,apellidoEstudiante,direccion,telefono,celular) VALUES('" & TextBox1.Text & "', '" & TextBox2.Text & "','" & TextBox3.Text & "','" & TextBox4.Text & "','" & TextBox5.Text & "','" & TextBox6.Text & "')"
+        Dim seleccion As String = "INSERT INTO registro (idEstud,nomEstu,apeEstu,direcci,telefon,celular) VALUES('" & TextBox1.Text & "', '" & TextBox2.Text & "','" & TextBox3.Text & "','" & TextBox4.Text & "','" & TextBox5.Text & "','" & TextBox6.Text & "')"
         Dim adaptadordedatos As SqlDataAdapter
         Dim tabladedatos As New DataTable
         Try

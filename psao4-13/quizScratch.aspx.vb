@@ -52,7 +52,7 @@ Partial Class quizIngles
         Dim Conexion As String
 
         Conexion = "Data Source = (local)\SQLEXPRESS;Database=loginweb;Integrated Security=True"
-        Dim seleccion As String = "UPDATE registro SET nScratch = '" & nota & "' WHERE idEstudiante='" & TextBox1.Text & "'"
+        Dim seleccion As String = "UPDATE registro SET nScratc = '" & nota & "' WHERE idEstud='" & TextBox1.Text & "'"
         Dim adaptadordedatos As SqlDataAdapter
         Dim tabladedatos As New DataTable
 
