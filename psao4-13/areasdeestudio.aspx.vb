@@ -15,7 +15,7 @@ Partial Class areasdeestudio
         Response.Redirect("kodu.aspx")
     End Sub
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Response.Redirect("medio_ambiente.aspx")
+        Response.Redirect("submenu_medioambiente.aspx")
     End Sub
     Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Response.Redirect("scratch.aspx")
