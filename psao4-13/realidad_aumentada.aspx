@@ -40,9 +40,11 @@
         </div>
     <div  class="flex-container botones">
        
-        <asp:Button ID="Button1" CssClass="btn" runat="server" Text="ENTORNO DE APRENDIZAJE " Height="80px" Width="280px" ImangeUrl="img/INGLES2.png" />
+        <asp:Button ID="Button1" CssClass="btn" runat="server" Text="Nivel 1" Height="80px" Width="190px" ImangeUrl="img/INGLES2.png" />
        
-        <asp:Button ID="Button2"  CssClass="btn" runat="server" Text="EVALUACIÓN" Height="80px" Width="280px" />
+        <asp:Button ID="Button4" CssClass="btn" runat="server" Text="Nivel 2 " Height="80px" Width="191px" ImangeUrl="img/INGLES2.png" />
+       
+        <asp:Button ID="Button2"  CssClass="btn" runat="server" Text="EVALUACIÓN" Height="80px" Width="165px" />
 
         
     </div>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="contenido_realidad_aumentada.aspx.vb" Inherits="areasdeestudio" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="contenido_realidad_aumentada2.aspx.vb" Inherits="areasdeestudio" %>
 
 <!DOCTYPE html>
 
@@ -28,17 +28,17 @@
              </div>
             
             <div id="titulo" class="col-lg-4">
-                        <h2>NIVEL 1 REALIDAD AUMENTADA</h2>
+                        <h2>NIVEL 2 REALIDAD AUMENTADA</h2>
     
            
         </div>
 
         <div id="titulo" class="col-lg-4">
-                <img src="img/realidad_aumentada_slider.jpg" alt="" width="1100" height="300" />
+                <img src="img/realidad aumentada 2.jpg" alt="" width="1100" height="300" />
             </div>
 
           <div id="titulo" class="col-lg-4">
-                        <h2>Que es Realidad Aumentada</h2>
+                        <h2>COMO FUNCIONA LA REALIDAD AUMENTADA</h2>
             </div>
 
    
@@ -49,7 +49,7 @@
         </div>
 
              <div id="titulo" class="col-lg-4">
-                        <h2>DESCARGUE EL ARCHIVO PDF</h2>
+                        <h2>GUIA PARA CREAR TU DISEÑO</h2>
             </div>
 
  <div id="titulo" class="col-lg-4">
