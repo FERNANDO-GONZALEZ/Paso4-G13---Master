@@ -34,13 +34,25 @@
                  </SelectParameters>
              </asp:SqlDataSource>
     </div>
+         <div id="mensaje">
+        
+                    <%
+
+                        If validacion <> "nada" Then
+                            Response.Write(validacion)
+                        End If
+
+                    %>
+            
+         </div>
     <div id="login" class="flex-container" >
-        <div class="col-lg-4">
+        <div class="col-lg-5">
             <picture id="llave">
                 <img src="img/llave.jpg"  width="60" height="60" />
             </picture>
         </div>
-        <div class="col-lg-8">
+       
+        <div class="col-lg-7">
             <div class="flex-container">
                 <label class="col-lg-3">Nombre del Usuario</label>&nbsp;
             </div>
@@ -51,7 +63,7 @@
                 &nbsp;</div>
             <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
             <br />
-            <div class="flex-container">
+            <div id="botones" class="flex-container">
                 <asp:Button ID="Button1" runat="server" Text="Ingreso" />
                 <asp:Button ID="Button2" runat="server" Text="Salir" />
             </div>
